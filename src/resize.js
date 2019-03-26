@@ -1,4 +1,7 @@
-import { getSelectedLayers } from 'sketch-plugin-helper'
+import {
+  adjustParentGroupsToFit,
+  getSelectedLayers
+} from 'sketch-plugin-helper'
 
 export function resize ({ coordinateKey, dimensionKey }) {
   return function ({ coordinateOffset, dimensionOffset }) {
@@ -9,6 +12,7 @@ export function resize ({ coordinateKey, dimensionKey }) {
         frame[coordinateKey] += coordinateOffset
         frame[dimensionKey] += dimensionOffset
       })
+      layers.forEach(adjustParentGroupsToFit)
     }
   }
 }
