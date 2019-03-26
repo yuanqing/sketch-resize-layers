@@ -1,0 +1,109 @@
+{
+  "private": true,
+  "version": "0.1.0",
+  "devDependencies": {
+    "sketch-plugin-helper": "*"
+  },
+  "scripts": {
+    "build": "sph build",
+    "fix": "sph lint --fix",
+    "lint": "sph lint",
+    "symlink": "sph symlink",
+    "unlink": "sph symlink --delete",
+    "version": "sph version",
+    "watch": "sph build --watch"
+  },
+  "sketch-plugin-helper": {
+    "pluginName": "Resize Layers",
+    "pluginDescription": "A Sketch plugin to ease layer resizing",
+    "authorName": "Lim Yuan Qing",
+    "githubUserName": "yuanqing",
+    "githubRepositoryName": "sketch-resize-layers",
+    "menu": [
+      {
+        "Resize Top": [
+          {
+            "handler": "resize-height/resize-top/resize-top-up",
+            "label": "Resize Top Up"
+          },
+          {
+            "handler": "resize-height/resize-top/resize-top-10-up",
+            "label": "Resize Top 10 Up"
+          },
+          "-",
+          {
+            "handler": "resize-height/resize-top/resize-top-down",
+            "label": "Resize Top Down"
+          },
+          {
+            "handler": "resize-height/resize-top/resize-top-10-down",
+            "label": "Resize Top 10 Down"
+          }
+        ]
+      },
+      {
+        "Resize Bottom": [
+          {
+            "handler": "resize-height/resize-bottom/resize-bottom-down",
+            "label": "Resize Bottom Down"
+          },
+          {
+            "handler": "resize-height/resize-bottom/resize-bottom-10-down",
+            "label": "Resize Bottom 10 Down"
+          },
+          "-",
+          {
+            "handler": "resize-height/resize-bottom/resize-bottom-up",
+            "label": "Resize Bottom Up"
+          },
+          {
+            "handler": "resize-height/resize-bottom/resize-bottom-10-up",
+            "label": "Resize Bottom 10 Up"
+          }
+        ]
+      },
+      {
+        "Resize Left": [
+          {
+            "handler": "resize-width/resize-left/resize-left-left",
+            "label": "Resize Left Left"
+          },
+          {
+            "handler": "resize-width/resize-left/resize-left-10-left",
+            "label": "Resize Left 10 Left"
+          },
+          "-",
+          {
+            "handler": "resize-width/resize-left/resize-left-right",
+            "label": "Resize Left Right"
+          },
+          {
+            "handler": "resize-width/resize-left/resize-left-10-right",
+            "label": "Resize Left 10 Right"
+          }
+        ]
+      },
+      {
+        "Resize Right": [
+          {
+            "handler": "resize-width/resize-right/resize-right-right",
+            "label": "Resize Right Right"
+          },
+          {
+            "handler": "resize-width/resize-right/resize-right-10-right",
+            "label": "Resize Right 10 Right"
+          },
+          "-",
+          {
+            "handler": "resize-width/resize-right/resize-right-left",
+            "label": "Resize Right Left"
+          },
+          {
+            "handler": "resize-width/resize-right/resize-right-10-left",
+            "label": "Resize Right 10 Left"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "name": "Resize Layers",
+  "description": "A Sketch plugin to ease layer resizing",
+  "author": "Lim Yuan Qing",
+  "homepage": "https://github.com/yuanqing/sketch-resize-layers",
+  "version": "0.1.0",
+  "identifier": "yuanqing.sketch-resize-layers",
+  "appcast": "https://raw.githubusercontent.com/yuanqing/sketch-resize-layers/master/appcast.xml",
+  "bundleVersion": 1,
+  "disableCocoaScriptPreprocessor": true,
+  "commands": [
+    {
+      "name": "Resize Top Up",
+      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-up",
+      "script": "plugin.js",
+      "handler": "resize-height/resize-top/resize-top-up"
+    },
+    {
+      "name": "Resize Top 10 Up",
+      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-10-up",
+      "script": "plugin.js",
+      "handler": "resize-height/resize-top/resize-top-10-up"
+    },
+    {
+      "name": "Resize Top Down",
+      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-down",
+      "script": "plugin.js",
+      "handler": "resize-height/resize-top/resize-top-down"
+    },
+    {
+      "name": "Resize Top 10 Down",
+      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-10-down",
+      "script": "plugin.js",
+      "handler": "resize-height/resize-top/resize-top-10-down"
+    },
+    {
+      "name": "Resize Bottom Down",
+      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-down",
+      "script": "plugin.js",
+      "handler": "resize-height/resize-bottom/resize-bottom-down"
+    },
+    {
+      "name": "Resize Bottom 10 Down",
+      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-10-down",
+      "script": "plugin.js",
+      "handler": "resize-height/resize-bottom/resize-bottom-10-down"
+    },
+    {
+      "name": "Resize Bottom Up",
+      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-up",
+      "script": "plugin.js",
+      "handler": "resize-height/resize-bottom/resize-bottom-up"
+    },
+    {
+      "name": "Resize Bottom 10 Up",
+      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-10-up",
+      "script": "plugin.js",
+      "handler": "resize-height/resize-bottom/resize-bottom-10-up"
+    },
+    {
+      "name": "Resize Left Left",
+      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-left",
+      "script": "plugin.js",
+      "handler": "resize-width/resize-left/resize-left-left"
+    },
+    {
+      "name": "Resize Left 10 Left",
+      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-10-left",
+      "script": "plugin.js",
+      "handler": "resize-width/resize-left/resize-left-10-left"
+    },
+    {
+      "name": "Resize Left Right",
+      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-right",
+      "script": "plugin.js",
+      "handler": "resize-width/resize-left/resize-left-right"
+    },
+    {
+      "name": "Resize Left 10 Right",
+      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-10-right",
+      "script": "plugin.js",
+      "handler": "resize-width/resize-left/resize-left-10-right"
+    },
+    {
+      "name": "Resize Right Right",
+      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-right",
+      "script": "plugin.js",
+      "handler": "resize-width/resize-right/resize-right-right"
+    },
+    {
+      "name": "Resize Right 10 Right",
+      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-10-right",
+      "script": "plugin.js",
+      "handler": "resize-width/resize-right/resize-right-10-right"
+    },
+    {
+      "name": "Resize Right Left",
+      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-left",
+      "script": "plugin.js",
+      "handler": "resize-width/resize-right/resize-right-left"
+    },
+    {
+      "name": "Resize Right 10 Left",
+      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-10-left",
+      "script": "plugin.js",
+      "handler": "resize-width/resize-right/resize-right-10-left"
+    }
+  ],
+  "menu": {
+    "title": "Resize Layers",
+    "items": [
+      {
+        "title": "Resize Top",
+        "items": [
+          "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-up",
+          "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-10-up",
+          "-",
+          "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-down",
+          "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-10-down"
+        ]
+      },
+      {
+        "title": "Resize Bottom",
+        "items": [
+          "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-down",
+          "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-10-down",
+          "-",
+          "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-up",
+          "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-10-up"
+        ]
+      },
+      {
+        "title": "Resize Left",
+        "items": [
+          "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-left",
+          "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-10-left",
+          "-",
+          "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-right",
+          "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-10-right"
+        ]
+      },
+      {
+        "title": "Resize Right",
+        "items": [
+          "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-right",
+          "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-10-right",
+          "-",
+          "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-left",
+          "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-10-left"
+        ]
+      }
+    ]
+  }
+}
