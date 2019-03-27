@@ -4,7 +4,7 @@
 
 ## Usage
 
-- Resizes the selected layers by moving the top, bottom, left, or right edge by 1 or 10 pixels
+- Resize the selected layers by moving the top, bottom, left, or right edge by 1 or 10 pixels
 
 ## Installation
 
