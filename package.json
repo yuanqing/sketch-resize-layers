@@ -1,6 +1,6 @@
 {
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.0",
   "devDependencies": {
     "sketch-plugin-helper": "*"
   },
@@ -21,86 +21,80 @@
     "githubRepositoryName": "sketch-resize-layers",
     "menu": [
       {
-        "Resize Top": [
+        "Resize Up": [
           {
-            "handler": "resize-height/resize-top/resize-top-up",
-            "label": "Resize Top Up"
+            "handler": "resize-up/top-1",
+            "label": "Top 1"
           },
           {
-            "handler": "resize-height/resize-top/resize-top-10-up",
-            "label": "Resize Top 10 Up"
+            "handler": "resize-up/top-10",
+            "label": "Top 10"
           },
           "-",
           {
-            "handler": "resize-height/resize-top/resize-top-down",
-            "label": "Resize Top Down"
+            "handler": "resize-up/bottom-1",
+            "label": "Bottom 1"
           },
           {
-            "handler": "resize-height/resize-top/resize-top-10-down",
-            "label": "Resize Top 10 Down"
+            "handler": "resize-up/bottom-10",
+            "label": "Bottom 10"
+          },
+          "-",
+          {
+            "handler": "resize-up/left-1",
+            "label": "Left 1"
+          },
+          {
+            "handler": "resize-up/left-10",
+            "label": "Left 10"
+          },
+          "-",
+          {
+            "handler": "resize-up/right-1",
+            "label": "Right 1"
+          },
+          {
+            "handler": "resize-up/right-10",
+            "label": "Right 10"
           }
         ]
       },
       {
-        "Resize Bottom": [
+        "Resize Down": [
           {
-            "handler": "resize-height/resize-bottom/resize-bottom-down",
-            "label": "Resize Bottom Down"
+            "handler": "resize-down/top-1",
+            "label": "Top 1"
           },
           {
-            "handler": "resize-height/resize-bottom/resize-bottom-10-down",
-            "label": "Resize Bottom 10 Down"
-          },
-          "-",
-          {
-            "handler": "resize-height/resize-bottom/resize-bottom-up",
-            "label": "Resize Bottom Up"
-          },
-          {
-            "handler": "resize-height/resize-bottom/resize-bottom-10-up",
-            "label": "Resize Bottom 10 Up"
-          }
-        ]
-      },
-      {
-        "Resize Left": [
-          {
-            "handler": "resize-width/resize-left/resize-left-left",
-            "label": "Resize Left Left"
-          },
-          {
-            "handler": "resize-width/resize-left/resize-left-10-left",
-            "label": "Resize Left 10 Left"
+            "handler": "resize-down/top-10",
+            "label": "Top 10"
           },
           "-",
           {
-            "handler": "resize-width/resize-left/resize-left-right",
-            "label": "Resize Left Right"
+            "handler": "resize-down/bottom-1",
+            "label": "Bottom 1"
           },
           {
-            "handler": "resize-width/resize-left/resize-left-10-right",
-            "label": "Resize Left 10 Right"
-          }
-        ]
-      },
-      {
-        "Resize Right": [
-          {
-            "handler": "resize-width/resize-right/resize-right-right",
-            "label": "Resize Right Right"
-          },
-          {
-            "handler": "resize-width/resize-right/resize-right-10-right",
-            "label": "Resize Right 10 Right"
+            "handler": "resize-down/bottom-10",
+            "label": "Bottom 10"
           },
           "-",
           {
-            "handler": "resize-width/resize-right/resize-right-left",
-            "label": "Resize Right Left"
+            "handler": "resize-down/left-1",
+            "label": "Left 1"
           },
           {
-            "handler": "resize-width/resize-right/resize-right-10-left",
-            "label": "Resize Right 10 Left"
+            "handler": "resize-down/left-10",
+            "label": "Left 10"
+          },
+          "-",
+          {
+            "handler": "resize-down/right-1",
+            "label": "Right 1"
+          },
+          {
+            "handler": "resize-down/right-10",
+            "label": "Right 10"
           }
         ]
       }

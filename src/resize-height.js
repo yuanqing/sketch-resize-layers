@@ -1,4 +1,4 @@
-import { resize } from '../resize'
+import { resize } from './resize'
 
 export default resize({
   coordinateKey: 'y',

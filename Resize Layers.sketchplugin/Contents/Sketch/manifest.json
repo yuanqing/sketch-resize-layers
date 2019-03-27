@@ -10,143 +10,135 @@
   "disableCocoaScriptPreprocessor": true,
   "commands": [
     {
-      "name": "Resize Top Up",
-      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-up",
+      "name": "Top",
+      "identifier": "yuanqing.sketch-resize-layers.resize-up.top-1",
       "script": "plugin.js",
-      "handler": "resize-height/resize-top/resize-top-up"
+      "handler": "resize-up/top-1"
     },
     {
-      "name": "Resize Top 10 Up",
-      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-10-up",
+      "name": "Top 10",
+      "identifier": "yuanqing.sketch-resize-layers.resize-up.top-10",
       "script": "plugin.js",
-      "handler": "resize-height/resize-top/resize-top-10-up"
+      "handler": "resize-up/top-10"
     },
     {
-      "name": "Resize Top Down",
-      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-down",
+      "name": "Bottom",
+      "identifier": "yuanqing.sketch-resize-layers.resize-up.bottom-1",
       "script": "plugin.js",
-      "handler": "resize-height/resize-top/resize-top-down"
+      "handler": "resize-up/bottom-1"
     },
     {
-      "name": "Resize Top 10 Down",
-      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-10-down",
+      "name": "Bottom 10",
+      "identifier": "yuanqing.sketch-resize-layers.resize-up.bottom-10",
       "script": "plugin.js",
-      "handler": "resize-height/resize-top/resize-top-10-down"
+      "handler": "resize-up/bottom-10"
     },
     {
-      "name": "Resize Bottom Down",
-      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-down",
+      "name": "Left",
+      "identifier": "yuanqing.sketch-resize-layers.resize-up.left-1",
       "script": "plugin.js",
-      "handler": "resize-height/resize-bottom/resize-bottom-down"
+      "handler": "resize-up/left-1"
     },
     {
-      "name": "Resize Bottom 10 Down",
-      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-10-down",
+      "name": "Left 10",
+      "identifier": "yuanqing.sketch-resize-layers.resize-up.left-10",
       "script": "plugin.js",
-      "handler": "resize-height/resize-bottom/resize-bottom-10-down"
+      "handler": "resize-up/left-10"
     },
     {
-      "name": "Resize Bottom Up",
-      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-up",
+      "name": "Right",
+      "identifier": "yuanqing.sketch-resize-layers.resize-up.right-1",
       "script": "plugin.js",
-      "handler": "resize-height/resize-bottom/resize-bottom-up"
+      "handler": "resize-up/right-1"
     },
     {
-      "name": "Resize Bottom 10 Up",
-      "identifier": "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-10-up",
+      "name": "Right 10",
+      "identifier": "yuanqing.sketch-resize-layers.resize-up.right-10",
       "script": "plugin.js",
-      "handler": "resize-height/resize-bottom/resize-bottom-10-up"
+      "handler": "resize-up/right-10"
     },
     {
-      "name": "Resize Left Left",
-      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-left",
+      "name": "Top",
+      "identifier": "yuanqing.sketch-resize-layers.resize-down.top-1",
       "script": "plugin.js",
-      "handler": "resize-width/resize-left/resize-left-left"
+      "handler": "resize-down/top-1"
     },
     {
-      "name": "Resize Left 10 Left",
-      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-10-left",
+      "name": "Top 10",
+      "identifier": "yuanqing.sketch-resize-layers.resize-down.top-10",
       "script": "plugin.js",
-      "handler": "resize-width/resize-left/resize-left-10-left"
+      "handler": "resize-down/top-10"
     },
     {
-      "name": "Resize Left Right",
-      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-right",
+      "name": "Bottom",
+      "identifier": "yuanqing.sketch-resize-layers.resize-down.bottom-1",
       "script": "plugin.js",
-      "handler": "resize-width/resize-left/resize-left-right"
+      "handler": "resize-down/bottom-1"
     },
     {
-      "name": "Resize Left 10 Right",
-      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-10-right",
+      "name": "Bottom 10",
+      "identifier": "yuanqing.sketch-resize-layers.resize-down.bottom-10",
       "script": "plugin.js",
-      "handler": "resize-width/resize-left/resize-left-10-right"
+      "handler": "resize-down/bottom-10"
     },
     {
-      "name": "Resize Right Right",
-      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-right",
+      "name": "Left",
+      "identifier": "yuanqing.sketch-resize-layers.resize-down.left-1",
       "script": "plugin.js",
-      "handler": "resize-width/resize-right/resize-right-right"
+      "handler": "resize-down/left-1"
     },
     {
-      "name": "Resize Right 10 Right",
-      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-10-right",
+      "name": "Left 10",
+      "identifier": "yuanqing.sketch-resize-layers.resize-down.left-10",
       "script": "plugin.js",
-      "handler": "resize-width/resize-right/resize-right-10-right"
+      "handler": "resize-down/left-10"
     },
     {
-      "name": "Resize Right Left",
-      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-left",
+      "name": "Right",
+      "identifier": "yuanqing.sketch-resize-layers.resize-down.right-1",
       "script": "plugin.js",
-      "handler": "resize-width/resize-right/resize-right-left"
+      "handler": "resize-down/right-1"
     },
     {
-      "name": "Resize Right 10 Left",
-      "identifier": "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-10-left",
+      "name": "Right 10",
+      "identifier": "yuanqing.sketch-resize-layers.resize-down.right-10",
       "script": "plugin.js",
-      "handler": "resize-width/resize-right/resize-right-10-left"
+      "handler": "resize-down/right-10"
     }
   ],
   "menu": {
     "title": "Resize Layers",
     "items": [
       {
-        "title": "Resize Top",
+        "title": "Resize Up",
         "items": [
-          "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-up",
-          "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-10-up",
+          "yuanqing.sketch-resize-layers.resize-up.top-1",
+          "yuanqing.sketch-resize-layers.resize-up.top-10",
           "-",
-          "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-down",
-          "yuanqing.sketch-resize-layers.resize-height.resize-top.resize-top-10-down"
+          "yuanqing.sketch-resize-layers.resize-up.bottom-1",
+          "yuanqing.sketch-resize-layers.resize-up.bottom-10",
+          "-",
+          "yuanqing.sketch-resize-layers.resize-up.left-1",
+          "yuanqing.sketch-resize-layers.resize-up.left-10",
+          "-",
+          "yuanqing.sketch-resize-layers.resize-up.right-1",
+          "yuanqing.sketch-resize-layers.resize-up.right-10"
         ]
       },
       {
-        "title": "Resize Bottom",
+        "title": "Resize Down",
         "items": [
-          "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-down",
-          "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-10-down",
+          "yuanqing.sketch-resize-layers.resize-down.top-1",
+          "yuanqing.sketch-resize-layers.resize-down.top-10",
           "-",
-          "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-up",
-          "yuanqing.sketch-resize-layers.resize-height.resize-bottom.resize-bottom-10-up"
-        ]
-      },
-      {
-        "title": "Resize Left",
-        "items": [
-          "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-left",
-          "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-10-left",
+          "yuanqing.sketch-resize-layers.resize-down.bottom-1",
+          "yuanqing.sketch-resize-layers.resize-down.bottom-10",
           "-",
-          "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-right",
-          "yuanqing.sketch-resize-layers.resize-width.resize-left.resize-left-10-right"
-        ]
-      },
-      {
-        "title": "Resize Right",
-        "items": [
-          "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-right",
-          "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-10-right",
+          "yuanqing.sketch-resize-layers.resize-down.left-1",
+          "yuanqing.sketch-resize-layers.resize-down.left-10",
           "-",
-          "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-left",
-          "yuanqing.sketch-resize-layers.resize-width.resize-right.resize-right-10-left"
+          "yuanqing.sketch-resize-layers.resize-down.right-1",
+          "yuanqing.sketch-resize-layers.resize-down.right-10"
         ]
       }
     ]
