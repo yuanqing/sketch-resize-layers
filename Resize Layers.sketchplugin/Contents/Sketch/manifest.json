@@ -10,7 +10,7 @@
   "disableCocoaScriptPreprocessor": true,
   "commands": [
     {
-      "name": "Top",
+      "name": "Top 1",
       "identifier": "yuanqing.sketch-resize-layers.resize-up.top-1",
       "script": "plugin.js",
       "handler": "resize-up/top-1"
@@ -22,7 +22,7 @@
       "handler": "resize-up/top-10"
     },
     {
-      "name": "Bottom",
+      "name": "Bottom 1",
       "identifier": "yuanqing.sketch-resize-layers.resize-up.bottom-1",
       "script": "plugin.js",
       "handler": "resize-up/bottom-1"
@@ -34,7 +34,7 @@
       "handler": "resize-up/bottom-10"
     },
     {
-      "name": "Left",
+      "name": "Left 1",
       "identifier": "yuanqing.sketch-resize-layers.resize-up.left-1",
       "script": "plugin.js",
       "handler": "resize-up/left-1"
@@ -46,7 +46,7 @@
       "handler": "resize-up/left-10"
     },
     {
-      "name": "Right",
+      "name": "Right 1",
       "identifier": "yuanqing.sketch-resize-layers.resize-up.right-1",
       "script": "plugin.js",
       "handler": "resize-up/right-1"
@@ -58,7 +58,7 @@
       "handler": "resize-up/right-10"
     },
     {
-      "name": "Top",
+      "name": "Top 1",
       "identifier": "yuanqing.sketch-resize-layers.resize-down.top-1",
       "script": "plugin.js",
       "handler": "resize-down/top-1"
@@ -70,7 +70,7 @@
       "handler": "resize-down/top-10"
     },
     {
-      "name": "Bottom",
+      "name": "Bottom 1",
       "identifier": "yuanqing.sketch-resize-layers.resize-down.bottom-1",
       "script": "plugin.js",
       "handler": "resize-down/bottom-1"
@@ -82,7 +82,7 @@
       "handler": "resize-down/bottom-10"
     },
     {
-      "name": "Left",
+      "name": "Left 1",
       "identifier": "yuanqing.sketch-resize-layers.resize-down.left-1",
       "script": "plugin.js",
       "handler": "resize-down/left-1"
@@ -94,7 +94,7 @@
       "handler": "resize-down/left-10"
     },
     {
-      "name": "Right",
+      "name": "Right 1",
       "identifier": "yuanqing.sketch-resize-layers.resize-down.right-1",
       "script": "plugin.js",
       "handler": "resize-down/right-1"
