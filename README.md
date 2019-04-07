@@ -1,4 +1,4 @@
-# sketch-resize-layers
+# Resize Layers
 
 > A Sketch plugin to ease layer resizing
 
@@ -8,8 +8,8 @@
 
 ## Installation
 
-1. [Download and unzip the latest release.](https://github.com/yuanqing/sketch-resize-layers/releases)
-2. Double-click `Resize Layers.sketchplugin` to install.
+1. [Download and unzip the latest release](https://github.com/yuanqing/sketch-resize-layers/releases)
+2. Double-click `Resize Layers.sketchplugin` to install
 
 ## License
 
