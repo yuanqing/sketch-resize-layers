@@ -3,7 +3,7 @@
   "description": "A Sketch plugin to ease layer resizing",
   "author": "Lim Yuan Qing",
   "homepage": "https://github.com/yuanqing/sketch-resize-layers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "identifier": "yuanqing.sketch-resize-layers",
   "appcast": "https://raw.githubusercontent.com/yuanqing/sketch-resize-layers/master/appcast.xml",
   "bundleVersion": 1,
