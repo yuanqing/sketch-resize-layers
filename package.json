@@ -1,6 +1,15 @@
 {
-  "private": true,
+  "name": "sketch-resize-layers",
   "version": "0.1.0",
+  "description": "A Sketch plugin to ease layer resizing",
+  "keywords": [
+    "plugin",
+    "sketch",
+    "sketch-plugin-helper"
+  ],
+  "license": "MIT",
+  "author": "Lim Yuan Qing",
+  "repository": "yuanqing/sketch-resize-layers",
   "devDependencies": {
     "sketch-plugin-helper": "*"
   },
@@ -14,11 +23,7 @@
     "watch": "sph build --watch"
   },
   "sketch-plugin-helper": {
-    "pluginName": "Resize Layers",
-    "pluginDescription": "A Sketch plugin to ease layer resizing",
-    "authorName": "Lim Yuan Qing",
-    "githubUserName": "yuanqing",
-    "githubRepositoryName": "sketch-resize-layers",
+    "name": "Resize Layers",
     "menu": [
       {
         "Resize Up": [
