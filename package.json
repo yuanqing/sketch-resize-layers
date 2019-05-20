@@ -14,13 +14,16 @@
     "src"
   ],
   "scripts": {
-    "build": "sph build",
-    "fix": "sph lint --fix",
-    "lint": "sph lint",
-    "symlink": "sph symlink",
-    "unlink": "sph symlink --delete",
-    "version": "sph version",
-    "watch": "sph build --watch"
+    "build": "sketch build",
+    "fix": "sketch lint --fix",
+    "handler": "sketch handler",
+    "lint": "sketch lint",
+    "script": "sketch script",
+    "symlink": "sketch symlink",
+    "test": "sketch test",
+    "unlink": "sketch symlink --delete",
+    "version": "sketch version",
+    "watch": "sketch build --watch"
   },
   "devDependencies": {
     "sketch-plugin-helper": "*"
@@ -32,38 +35,38 @@
         "Resize Up": [
           {
             "handler": "resize-up/top-1",
-            "label": "Top 1"
+            "name": "Top 1"
           },
           {
             "handler": "resize-up/top-10",
-            "label": "Top 10"
+            "name": "Top 10"
           },
           "-",
           {
             "handler": "resize-up/bottom-1",
-            "label": "Bottom 1"
+            "name": "Bottom 1"
           },
           {
             "handler": "resize-up/bottom-10",
-            "label": "Bottom 10"
+            "name": "Bottom 10"
           },
           "-",
           {
             "handler": "resize-up/left-1",
-            "label": "Left 1"
+            "name": "Left 1"
           },
           {
             "handler": "resize-up/left-10",
-            "label": "Left 10"
+            "name": "Left 10"
           },
           "-",
           {
             "handler": "resize-up/right-1",
-            "label": "Right 1"
+            "name": "Right 1"
           },
           {
             "handler": "resize-up/right-10",
-            "label": "Right 10"
+            "name": "Right 10"
           }
         ]
       },
@@ -71,38 +74,38 @@
         "Resize Down": [
           {
             "handler": "resize-down/top-1",
-            "label": "Top 1"
+            "name": "Top 1"
           },
           {
             "handler": "resize-down/top-10",
-            "label": "Top 10"
+            "name": "Top 10"
           },
           "-",
           {
             "handler": "resize-down/bottom-1",
-            "label": "Bottom 1"
+            "name": "Bottom 1"
           },
           {
             "handler": "resize-down/bottom-10",
-            "label": "Bottom 10"
+            "name": "Bottom 10"
           },
           "-",
           {
             "handler": "resize-down/left-1",
-            "label": "Left 1"
+            "name": "Left 1"
           },
           {
             "handler": "resize-down/left-10",
-            "label": "Left 10"
+            "name": "Left 10"
           },
           "-",
           {
             "handler": "resize-down/right-1",
-            "label": "Right 1"
+            "name": "Right 1"
           },
           {
             "handler": "resize-down/right-10",
-            "label": "Right 10"
+            "name": "Right 10"
           }
         ]
       }
