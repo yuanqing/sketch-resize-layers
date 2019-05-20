@@ -1,4 +1,4 @@
-# Resize Layers
+# Resize Layers [![npm Version](https://badgen.net/npm/v/sketch-resize-layers)](https://www.npmjs.org/package/sketch-resize-layers)
 
 > A Sketch plugin to ease layer resizing
 
